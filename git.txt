@@ -1,0 +1,18 @@
+sudo apt-get install git
+git --version
+git config --global user.name ""
+git config --global user.email ""
+git config --list
+#./home 裡有 .gitconfig 紀錄上面config
+git clone https://....
+cd repo
+
+#add file
+git status #filename red
+git add filename
+git status #filename green
+git commit -m "comment"
+
+git push -u origin master
+
+
